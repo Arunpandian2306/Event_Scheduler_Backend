@@ -1,4 +1,4 @@
-# Event Scheduler(FE)
+# Event Scheduler
 
 - **Create Events**:
 - Users can select a date and specify the start and end times for their events.
