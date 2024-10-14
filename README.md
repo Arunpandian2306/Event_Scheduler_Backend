@@ -40,6 +40,8 @@
 
    ```bash
    git clone https://github.com/Arunpandian2306/Event_Scheduler_Frontend.git
-   docker-compose up --build   
-   open this url http://localhost:5173/
+   docker-compose up --build
 ```
+   
+3. Open your browser and navigate to `http://localhost:5173` 
+
