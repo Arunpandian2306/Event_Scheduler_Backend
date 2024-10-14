@@ -22,6 +22,7 @@
 - **Styling**: CSS 
 - **Axios**: For making HTTP requests to the backend API
 - **To-Build**: Docker
+- **API-Testing**: Postman
   
 ## Installation & Setup
 
