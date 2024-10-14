@@ -29,14 +29,16 @@
 •	node version 18
 •	docker
 
-- Backend Setup
+1. **Backend Setup**
+- 
   ```bash
    git clone https://github.com/Arunpandian2306/Event_Scheduler_Backend.git
-	 docker-compose up --build
+   docker-compose up --build
 ```
   
-- Frontend Setup
-```bash
+2. **Frontend Setup**
+
+   ```bash
    git clone https://github.com/Arunpandian2306/Event_Scheduler_Frontend.git
    docker-compose up --build   
    open this url http://localhost:5173/
