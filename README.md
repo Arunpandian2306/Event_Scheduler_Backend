@@ -30,7 +30,7 @@
 •	docker
 
 1. **Backend Setup**
-- 
+
   ```bash
    git clone https://github.com/Arunpandian2306/Event_Scheduler_Backend.git
    docker-compose up --build
