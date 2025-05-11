@@ -37,5 +37,20 @@ router.get('/events', (req, res) => {
     }
 });
 
+router.delete('/delete-event', (req, res) => {
+    const { date, startHour, endHour } = req.body;
+    if (!date || startHour == null || endHour == null) {
+        return sendError(res, 'Invalid input for deletion');
+    }
+
+    const success = eventManager.deleteEvent(date, startHour, endHour);
+
+    if (success) {
+        sendSuccess(res, 'Event deleted successfully');
+    } else {
+        sendError(res, 'Event not found');
+    }
+});
+
 
 module.exports = router;
