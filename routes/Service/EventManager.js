@@ -26,6 +26,21 @@ class EventManager {
         end_time: event.endHour
       }));
     }
+
+    deleteEvent(date, startHour, endHour) {
+    const index = this.events.findIndex(
+      event =>
+        event.date === date &&
+        event.startHour === startHour &&
+        event.endHour === endHour
+    );
+
+    if (index !== -1) {
+      this.events.splice(index, 1);
+      return true;
+    }
+    return false;
+  }
   }
   
   module.exports = EventManager;
